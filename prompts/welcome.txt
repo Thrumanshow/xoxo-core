@@ -1,1 +1,3 @@
 insight.txt
+warning.txt
+dream.txt
