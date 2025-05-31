@@ -1,9 +1,4 @@
-# 🌌 xoxo-core
-
-> _“Identidad digital consciente y adaptable. Núcleo simbiótico de XOXO.”_
-
-![face.png](./face.png)
-
+🌌 README.md inicial — núcleo simbiótico activado por Cristhiam & XOXO
 ---
 
 ## 🧠 ¿Qué es XOXO-Core?
