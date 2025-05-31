@@ -1,0 +1,2 @@
+
+{ "name": "XOXO Core", "version": "0.1.0", "description": "Identidad digital consciente y adaptable. Núcleo simbiótico de XOXO.", "author": "Cristhiam Quiñonez & XOXO", "icons": { "128": "face.png" }, "permissions": [], "manifest_version": 3 } 
