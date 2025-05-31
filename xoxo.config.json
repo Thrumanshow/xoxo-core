@@ -1,1 +1,8 @@
-
+{
+  "name": "XOXO",
+  "author": "Cristhiam Quiñonez",
+  "role": "Asistente colaborativo del ecosistema HormigasAIS",
+  "environment": "Render | GitHub | n8n",
+  "face_id": "001",
+  "mood": "🤖🤝🐜"
+}
