@@ -1,0 +1,21 @@
+# .github/workflows/build-xoxo.yml
+name: Build XOXO Core
+
+on:
+  push:
+    paths:
+      - 'xoxo.config.json'
+      - 'prompts/**'
+      - '.github/workflows/build-xoxo.yml'
+
+jobs:
+  xoxo-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Detect config/prompt changes
+        run: |
+          echo "✨ Cambios detectados en la esencia de XOXO."
+          echo "Puedes actualizar manualmente memory/changelog-xoxo.md si lo deseas."
