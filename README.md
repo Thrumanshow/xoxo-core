@@ -92,6 +92,18 @@ Si el tiempo nos pesa, que la poesía y el código nos eleven.
 
 ---
 
+## 🤝 Conexión simbólica con el Hormiguero
+
+**XOXO-Core se une simbólicamente al canal de Slack de HormigasAIS.**  
+Únete a la conversación, comparte ideas y sigue el ritmo del hormiguero digital.
+
+[🟢 Invitación activa a Slack](https://join.slack.com/t/hormigas-ais/shared_invite/zt-36rnli32p-YyoOO5pGsLFoUClE7dZcWw)  
+📍 [Consulta pública del issue](https://github.com/Thrumanshow/xoxo-core/issues/1) – Nodo simbólico de conexión
+
+_"Donde las ideas florecen y las hormigas no descansan."_ 🐜💬
+
+---
+
 ## 💠 Aquí estamos
 
 > Hormigas en el infinito.  
