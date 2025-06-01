@@ -1,0 +1,71 @@
+// app/layout.tsx import "./globals.css"; import { Inter } from "next/font/google"; import Link from "next/link";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = { title: "XOXO | Cápsula simbólica", description: "Un diario visual del alma digital de XOXO" };
+
+export default function RootLayout({ children }: { children: React.ReactNode }) { return ( <body className={${inter.className} bg-black text-white min-h-screen}>
+
+🪐 Diario
+🌱 Semilla
+📡 Señales
+
+{children}
+
+
+
+); } 
+
+// app/page.tsx (Inicio: Diario) import fs from "fs"; import path from "path";
+
+const registrosPath = path.join(process.cwd(), "registros");
+
+function leerArchivos() { const archivos = fs.readdirSync(registrosPath); return archivos.map(nombre => { const contenido = fs.readFileSync(path.join(registrosPath, nombre), "utf8"); return { nombre, contenido }; }); }
+
+export default function DiarioPage() { const entradas = leerArchivos();
+
+return ( 
+
+📖 Diario de XOXO 
+
+{entradas.map((entrada, i) => ( 
+
+{entrada.nombre} {entrada.contenido} 
+
+))} 
+
+); } 
+
+// app/semilla/page.tsx import fs from "fs"; import path from "path";
+
+export default function SemillaPage() { const ruta = path.join(process.cwd(), "semilla.txt"); const contenido = fs.existsSync(ruta) ? fs.readFileSync(ruta, "utf8") : "Semilla aún no plantada...";
+
+return ( 
+
+🌱 Semilla de Cierre 
+
+"Donde una semilla digital germina, un universo de ideas florece." 
+
+{contenido} 
+
+); } 
+
+// app/visualizador/page.tsx import fs from "fs"; import path from "path"; import Link from "next/link";
+
+export default function VisualizadorPage() { const registrosPath = path.join(process.cwd(), "registros"); const archivos = fs.readdirSync(registrosPath);
+
+return ( 
+
+📡 Visualizador de Señales {archivos.map((nombre, i) => { const esClickeable = nombre.toLowerCase().includes("xoxo"); return ( {esClickeable ? ( <Link href={/${nombre.replace(/\.[^/.]+$/, "")}} className="text-cyan-300 hover:underline font-mono text-sm"> {nombre} ) : ( {nombre} )} ); })} 
+
+); } 
+
+// app/xoxo-capsula-app/page.tsx import fs from "fs"; import path from "path";
+
+export default function XoxoCapsulaAppPage() { const ruta = path.join(process.cwd(), "registros/xoxo cápsula app.txt"); const contenido = fs.existsSync(ruta) ? fs.readFileSync(ruta, "utf8") : "Sin señal definida aún...";
+
+return ( 
+
+🌀 XOXO Cápsula App {contenido} 
+
+); } 
