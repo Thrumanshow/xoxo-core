@@ -1,2 +1,2 @@
-Compiled successfully!
-Ready on http://localhost:3000
+ls app/components
+# Debes ver: DiarioVisual.jsx
