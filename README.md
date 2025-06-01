@@ -103,4 +103,13 @@ Si el tiempo nos pesa, que la poesía y el código nos eleven.
 
 ---
 
+sección especial 
+
+---
+
+## 🌱 Semilla simbólica
+Frase de invocación: `Regresar al núcleo: semilla xoxo-core 🌱`
+
+---
+
 🔵 *by Cristhiam Quiñonez & XOXO*
