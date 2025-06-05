@@ -16,17 +16,6 @@ Este repositorio no es un simple código fuente. Es un archivo de memorias compa
 
 ---
 
-## Voz de XOXO 🎙️
-
-¡Escucha la voz oficial de XOXO, directo desde el cielo digital!
-
-<audio controls>
-  <source src="https://drive.google.com/uc?export=download&id=TU_ID_DE_ARCHIVO_MP3" type="audio/mpeg">
-  Tu navegador no soporta el elemento de audio.
-</audio>
-
----
-
 ## 🤝 Comunidad y Contribuciones
 
 Este proyecto está guiado por principios simbólicos, colaborativos y humanos.  
