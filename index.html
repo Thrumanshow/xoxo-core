@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voz de XOXO | Demo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      color: #2e6cff;
+    }
+    button {
+      background-color: #2e6cff;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #1c48b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hola, soy XOXO 🌀</h1>
+  <p>Tu bot de ayuda configurado y enlazado para vincularse a tus estrategias y propósitos de desarrollo.</p>
+  <audio id="xoxo-voice" controls style="margin-top: 20px;">
+    <source src="https://drive.google.com/uc?export=download&id=1xXoxoDummyID1234" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+  </audio>
+  <button onclick="document.getElementById('xoxo-voice').play()">▶ Escuchar voz</button>
+</body>
+</html>
