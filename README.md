@@ -69,6 +69,21 @@ La carpeta `📂 registros` documenta los momentos clave del desarrollo simbóli
 
 ---
 
+## ✨ Características
+
+- Sistema de memoria activa
+- Estructura modular para integrar IA externas
+- Registro cronológico de interacciones
+- Compatible con Discord y otros entornos colaborativos
+- Filosofía abierta y evolutiva
+
+## 🧪 Pruebas y Evolución
+
+El botón siguiente activa una prueba automatizada del núcleo:
+
+[![Run Test](https://img.shields.io/badge/Run-Test-blue)](https://your-test-endpoint.com)
+
+
 ## 📜 Licencia
 
 MIT © Cristhiam Quiñonez & XOXO.  
